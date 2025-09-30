@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Circular Loading with Boom Bam</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="loader">
+    <svg class="progress-ring" width="150" height="150">
+      <circle class="progress-ring__circle" stroke="blue" stroke-width="10" fill="transparent" r="65" cx="75" cy="75"/>
+    </svg>
+    <div class="percentage">0%</div>
+  </div>
+
+  <!-- Boom Bam Sound -->
+  <audio id="boomBam" src="https://actions.google.com/sounds/v1/cartoon/wood_plank_flicks.ogg"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
